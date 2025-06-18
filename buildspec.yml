@@ -6,8 +6,8 @@ phases:
       nodejs: 18
     commands:
       - echo "Installing NGINX"
-      - sudo dnf update
-      - sudo dnf install -y nginx
+      - sudo apt update
+      - sudo apt install -y nginx
 
   build:
     commands:
